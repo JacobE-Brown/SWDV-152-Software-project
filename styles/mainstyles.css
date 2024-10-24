@@ -1,0 +1,41 @@
+#outerwrapper {
+    display: grid;
+    margin: 0 auto;
+}
+#userinput {
+    background: white;
+    border: 3px solid black;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: span 5;
+    margin: 10px;
+}
+#log {
+    background: white;
+    border: 3px solid black;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 6;
+    grid-row-end: span 5;
+    margin: 10px;
+}
+#displayarea {
+    background: white;
+    border: 3px solid black;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: span 10;
+    margin: 10px;
+}
+footer {
+    clear: both;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 10px;
+}
