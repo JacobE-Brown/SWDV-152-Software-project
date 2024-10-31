@@ -1,0 +1,10 @@
+{
+    "levels": [
+        {
+            "levelNumber": 1,
+            "levelName": "Variable Introduction",
+            "levelMap": [[]],
+            "levelWinCondition": null
+        }
+    ]
+}

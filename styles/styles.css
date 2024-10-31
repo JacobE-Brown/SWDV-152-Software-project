@@ -25,13 +25,13 @@
 
 body {
   margin: 0;
-  background: #7BA66F;
-  color: #1E402D;
+  background: #7ba66f;
+  color: #1e402d;
 }
 
 header {
   padding: 25px;
-  background: #90BF7A;
+  background: #90bf7a;
 }
 header #title {
   display: flex;
@@ -47,6 +47,22 @@ header #title h1 {
   margin: 0;
   font-family: "Revalia", sans-serif;
   font-weight: 800;
+  letter-spacing: 1px;
+  text-shadow: #506447 2px 2px 3px;
+}
+header #sub_title h2 {
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+  font-family: "Revalia", sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-shadow: #506447 2px 2px 3px;
+}
+header #sub_title p {
+  text-align: left;
+  font-family: "Revalia", sans-serif;
+  font-weight: 200;
   letter-spacing: 1px;
   text-shadow: #506447 2px 2px 3px;
 }
@@ -118,15 +134,15 @@ main {
   flex-flow: column;
 }
 #game_wrapper #left_side_wrapper #input form #user_input {
-  background: #EBF2EC;
-  color: #1E402D;
+  background: #ebf2ec;
+  color: #1e402d;
   width: 100%;
   height: 260px;
   resize: none;
   border-width: 10px;
   border-radius: 8px;
   border-style: solid;
-  border-color: #90BF7A;
+  border-color: #90bf7a;
   padding: 24px;
   margin-top: 24px;
   font-size: 24px;
@@ -139,12 +155,12 @@ main {
   }
 }
 #game_wrapper #left_side_wrapper #input form button {
-  background: #1E402D;
+  background: #1e402d;
   box-shadow: 3px 3px 4px #939393;
   border: none;
   border-radius: 18px;
   font-size: 20px;
-  color: #EBF2EC;
+  color: #ebf2ec;
   font-weight: bold;
   padding: 8px 12px;
   margin-top: -65px;
@@ -156,12 +172,12 @@ main {
   letter-spacing: 1.5px;
 }
 #game_wrapper #left_side_wrapper #log_box {
-  background: #EBF2EC;
-  color: #1E402D;
+  background: #ebf2ec;
+  color: #1e402d;
   font-family: "Oxanium", sans-serif;
   border-style: solid;
   border-width: 10px;
-  border-color: #90BF7A;
+  border-color: #90bf7a;
   border-radius: 8px;
   height: 260px;
   margin-top: -20px;
@@ -214,7 +230,7 @@ main {
 }
 
 footer {
-  background: #90BF7A;
+  background: #90bf7a;
   position: relative;
   margin-top: -150px;
   height: 150px;

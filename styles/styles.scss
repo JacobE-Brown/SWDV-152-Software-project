@@ -1,8 +1,8 @@
-$xs:  400px;
-$sm:  576px;
-$md:  768px;
-$lg:  960px;
-$xl:  1200px;
+$xs: 400px;
+$sm: 576px;
+$md: 768px;
+$lg: 960px;
+$xl: 1200px;
 $xxl: 1400px;
 
 /**
@@ -26,22 +26,62 @@ $xxl: 1400px;
 }
 **/
 
-$primary: #EBF2EC;
-$primary-dark: #1E402D;
-$secondary: #90BF7A;
-$dark-bg: #7BA66F;
+$primary: #ebf2ec;
+$primary-dark: #1e402d;
+$secondary: #90bf7a;
+$dark-bg: #7ba66f;
 
 /* Mixins */
-@mixin xs { @media (min-width: $xs) { @content; }}
-@mixin sm { @media (min-width: $sm) { @content; } }
-@mixin sm-landscape { @media (min-width: $sm) and (max-width: $md) and (orientation: landscape) { @content; } }
-@mixin md { @media (min-width: $md) { @content; } }
-@mixin lg { @media (min-width: $lg) { @content; } }
-@mixin xl { @media (min-width: $xl) { @content; } }
-@mixin xxl { @media (min-width: $xxl) { @content; } }
-@mixin lt($width) { @media (max-width: $width) { @content; } }
-@mixin gt($width) { @media (min-width: $width) { @content; } }
-@mixin between($width1, $width2) { @media (min-width: $width1) and (max-width: $width2) { @content; } }
+@mixin xs {
+    @media (min-width: $xs) {
+        @content;
+    }
+}
+@mixin sm {
+    @media (min-width: $sm) {
+        @content;
+    }
+}
+@mixin sm-landscape {
+    @media (min-width: $sm) and (max-width: $md) and (orientation: landscape) {
+        @content;
+    }
+}
+@mixin md {
+    @media (min-width: $md) {
+        @content;
+    }
+}
+@mixin lg {
+    @media (min-width: $lg) {
+        @content;
+    }
+}
+@mixin xl {
+    @media (min-width: $xl) {
+        @content;
+    }
+}
+@mixin xxl {
+    @media (min-width: $xxl) {
+        @content;
+    }
+}
+@mixin lt($width) {
+    @media (max-width: $width) {
+        @content;
+    }
+}
+@mixin gt($width) {
+    @media (min-width: $width) {
+        @content;
+    }
+}
+@mixin between($width1, $width2) {
+    @media (min-width: $width1) and (max-width: $width2) {
+        @content;
+    }
+}
 
 * {
     box-sizing: border-box;
@@ -73,6 +113,24 @@ header {
             text-shadow: #506447 2px 2px 3px;
         }
     }
+    #sub_title {
+        h2 {
+            font-size: 2em;
+            text-align: center;
+            margin: 0;
+            font-family: "Revalia", sans-serif;
+            font-weight: 800;
+            letter-spacing: 1px;
+            text-shadow: #506447 2px 2px 3px;
+        }
+        p {
+            text-align: left;
+            font-family: "Revalia", sans-serif;
+            font-weight: 200;
+            letter-spacing: 1px;
+            text-shadow: #506447 2px 2px 3px;
+        }
+    }
 }
 
 main {
@@ -89,7 +147,8 @@ main {
     height: 100%;
     //gap: 60px;
 
-    @include lg { // 960px
+    @include lg {
+        // 960px
         flex-flow: row;
     }
     #left_side_wrapper {
@@ -98,31 +157,36 @@ main {
         width: 95%;
         height: 620px;
         margin: auto;
-        @include sm { // 576px
+        @include sm {
+            // 576px
             width: 95%;
             margin-top: 20px;
             flex-flow: row;
             justify-content: center;
             gap: 20px;
         }
-        @include lg { // 960px
+        @include lg {
+            // 960px
             flex-flow: column;
             width: 33%;
             margin-top: 0;
             gap: 0;
-
         }
-        @include xl { // 1200px
+        @include xl {
+            // 1200px
             width: 46%;
         }
-        @include xxl { // 1400px
+        @include xxl {
+            // 1400px
             width: 50%;
         }
         #input {
-            @include sm { // 576px
+            @include sm {
+                // 576px
                 width: 48%;
             }
-            @include lg { // 960px
+            @include lg {
+                // 960px
                 width: 100%;
             }
             form {
@@ -142,14 +206,15 @@ main {
                     margin-top: 24px;
                     font-size: 24px;
                     font-family: "Oxanium", sans-serif;
-                    @include sm { // 576px
+                    @include sm {
+                        // 576px
                         height: 338px;
                         margin-top: 0;
                     }
                 }
                 button {
                     background: $primary-dark;
-                    box-shadow: 3px 3px 4px #939393 ;
+                    box-shadow: 3px 3px 4px #939393;
                     border: none;
                     border-radius: 18px;
                     font-size: 20px;
@@ -176,12 +241,14 @@ main {
             border-radius: 8px;
             height: 260px;
             margin-top: -20px;
-            @include sm { // 576px
+            @include sm {
+                // 576px
                 width: 48%;
                 margin-top: 0;
                 height: 338px;
             }
-            @include lg { // 960px
+            @include lg {
+                // 960px
                 width: 100%;
                 margin-top: -25px;
             }
@@ -198,7 +265,8 @@ main {
     }
     #right_side_wrapper {
         margin: auto;
-        @include md { // 768px
+        @include md {
+            // 768px
             width: auto;
             height: 620px;
         }
