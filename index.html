@@ -1,19 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Home</title>
+        <title>Coding Garden</title>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="./styles/mainstyles.css" />
-        <script src="./scripts/index.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Oxygen:wght@300;400;700&family=Revalia&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
     </head>
+    <body>
+        <header>
+            <div id="title">
+                <img src="image/carrot.png" />
+                <h1>Coding Garden</h1>
+            </div>
+            <div id="sub_title">
+                <h2>Ready to Grow?</h2>
+                <p>
+                    Grab your seed bag and prepare for a coding journey like no
+                    other! In Variable and Function Garden, you’ll grow not just
+                    your garden but also your programming skills. Let’s get
+                    coding and watch those plants flourish! Happy gardening!
+                </p>
+            </div>
+        </header>
+        <main>
+            <div id="game_wrapper">
+                <div id="left_side_wrapper">
+                    <!-- Elements for the Code Mirror Editor -->
+                    <div id="input-area">
+                        <div id="input">
+                            <!-- This Element needs to be here for the Editor Script -->
+                        </div>
+                        <button id="submit" onclick="hiddenFunction()">
+                            Submit
+                        </button>
+                    </div>
+
+                    <div id="log_box">
+                        <h2>Output</h2>
+                        <div id="log"></div>
+                        <div id="next_wrapper">
+                            <button id="next" style="display: none">
+                                Next Level
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="right_side_wrapper">
+                    <div id="game_display">
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                        <img src="image/dirt.png" class="grid" />
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>
+                Use this to play around with the tile map dimensions. enter a
+                number or rows and columns and it will generate the tile map
+            </p>
+            <div id="Generate-Tile-Map-Container">
+                <label for="genColumns">Columns:</label>
+                <input
+                    type="number"
+                    id="genColumns"
+                    placeholder="Enter columns"
+                    min="1"
+                    max="10"
+                    style="margin-bottom: 10px"
+                />
+
+                <label for="genRows">Rows:</label>
+                <input
+                    type="number"
+                    id="genRows"
+                    placeholder="Enter rows"
+                    min="1"
+                    max="10"
+                    style="margin-bottom: 10px"
+                />
+
+                <button id="generate_button">Generate</button>
+            </div>
+        </footer>
+        <script src="./src/scripts/index.js"></script>
+        <script src="./src/scripts/diplayLevel.js"></script>
+        <script src="./src/scripts/editor.bundle.js"></script>
+    </body>
 </html>
-<body>
-    <header>
-        <h1>Variable Game</h1>
-    </header>
-    <main>
-        <div><script src="./scripts/editor.bundle.js"></script></div>
-    </main>
-    <footer></footer>
-</body>
