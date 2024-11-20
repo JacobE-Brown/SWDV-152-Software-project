@@ -25,13 +25,13 @@
 
 body {
   margin: 0;
-  background: #7BA66F;
-  color: #1E402D;
+  background: #7ba66f;
+  color: #1e402d;
 }
 
 header {
   padding: 25px;
-  background: #90BF7A;
+  background: #90bf7a;
 }
 header #title {
   display: flex;
@@ -121,54 +121,54 @@ main {
     width: 50%;
   }
 }
+#game_wrapper #left_side_wrapper #input-area {
+  position: relative;
+  width: 100%;
+}
 @media (min-width: 576px) {
-  #game_wrapper #left_side_wrapper #input {
+  #game_wrapper #left_side_wrapper #input-area {
     width: 48%;
   }
 }
 @media (min-width: 960px) {
-  #game_wrapper #left_side_wrapper #input {
+  #game_wrapper #left_side_wrapper #input-area {
     width: 100%;
   }
 }
-#game_wrapper #left_side_wrapper #input #form {
-  display: flex;
-  flex-flow: column;
-}
-#game_wrapper #left_side_wrapper #input #form #user_input {
-  background: #EBF2EC;
-  color: #1E402D;
-  width: 100%;
-  height: 260px;
-  resize: none;
+#game_wrapper #left_side_wrapper #input-area .cm-editor {
+  background: #ebf2ec; /* Matches the previous textarea background */
+  color: #1e402d; /* Text color */
+  width: 100%; /* Full width of container */
+  height: 260px; /* Match previous height */
   border-width: 10px;
   border-radius: 8px;
   border-style: solid;
-  border-color: #90BF7A;
-  padding: 24px;
-  margin-top: 24px;
-  font-size: 24px;
+  border-color: #90bf7a;
   font-family: "Oxanium", sans-serif;
+  font-size: 16px; /* Adjust to your preference */
 }
 @media (min-width: 576px) {
-  #game_wrapper #left_side_wrapper #input #form #user_input {
+  #game_wrapper #left_side_wrapper #input-area .cm-editor {
     height: 338px;
     margin-top: 0;
   }
 }
-#game_wrapper #left_side_wrapper #input #form #submit {
-  margin-top: -65px;
-  margin-bottom: 65px;
-  margin-right: auto;
-  margin-left: auto;
+#game_wrapper #left_side_wrapper #input-area .cm-content {
+  font-size: 16px; /* Adjust font size for the editor */
+  line-height: 1.5;
+}
+#game_wrapper #left_side_wrapper #input-area #submit {
+  position: absolute;
+  bottom: 20px;
+  left: 43%;
 }
 #game_wrapper #left_side_wrapper #log_box {
-  background: #EBF2EC;
-  color: #1E402D;
+  background: #ebf2ec;
+  color: #1e402d;
   font-family: "Oxanium", sans-serif;
   border-style: solid;
   border-width: 10px;
-  border-color: #90BF7A;
+  border-color: #90bf7a;
   border-radius: 8px;
   height: 260px;
   margin-top: -20px;
@@ -230,12 +230,12 @@ main {
 }
 
 button {
-  background: #1E402D;
+  background: #1e402d;
   box-shadow: 3px 3px 4px #939393;
   border: none;
   border-radius: 18px;
   font-size: 20px;
-  color: #EBF2EC;
+  color: #ebf2ec;
   font-weight: bold;
   padding: 8px 12px;
   font-family: "Oxygen", sans-serif;
@@ -244,7 +244,7 @@ button {
 }
 
 footer {
-  background: #90BF7A;
+  background: #90bf7a;
   position: relative;
   margin-top: -150px;
   height: 150px;

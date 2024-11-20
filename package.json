@@ -11,5 +11,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@codemirror/lang-javascript": "^6.2.2",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "cm6-theme-nord": "^0.2.0",
+    "codemirror": "^6.0.1",
+    "rollup": "^4.27.3"
+  }
 }

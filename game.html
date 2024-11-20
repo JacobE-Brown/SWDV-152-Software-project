@@ -31,18 +31,16 @@
         <main>
             <div id="game_wrapper">
                 <div id="left_side_wrapper">
-                    <div id="input">
-                        <div id="form">
-                            <label for="user_input"></label>
-                            <textarea
-                                name="user_input"
-                                id="user_input"
-                            ></textarea>
-                            <button id="submit" onclick="hiddenFunction()">
-                                Submit
-                            </button>
+                    <!-- Elements for the Code Mirror Editor -->
+                    <div id="input-area">
+                        <div id="input">
+                            <!-- This Element needs to be here for the Editor Script -->
                         </div>
+                        <button id="submit" onclick="hiddenFunction()">
+                            Submit
+                        </button>
                     </div>
+
                     <div id="log_box">
                         <h2>Output</h2>
                         <div id="log"></div>
@@ -126,5 +124,6 @@
         </footer>
         <script src="scripts/index.js"></script>
         <script src="./scripts/diplayLevel.js"></script>
+        <script src="./scripts/editor.bundle.js"></script>
     </body>
 </html>
