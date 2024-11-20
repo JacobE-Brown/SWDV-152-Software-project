@@ -91,7 +91,6 @@ main {
   display: flex;
   flex-flow: column;
   width: 95%;
-  height: 620px;
   margin: auto;
 }
 @media (min-width: 576px) {
@@ -160,7 +159,12 @@ main {
 #game_wrapper #left_side_wrapper #input-area #submit {
   position: absolute;
   bottom: 20px;
-  left: 43%;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+#game_wrapper #left_side_wrapper #input-area #submit:hover {
+  background-color: #90bf7a;
 }
 #game_wrapper #left_side_wrapper #log_box {
   background: #ebf2ec;

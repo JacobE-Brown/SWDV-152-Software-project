@@ -155,7 +155,7 @@ main {
         display: flex;
         flex-flow: column;
         width: 95%;
-        height: 620px;
+        // height: 620px;
         margin: auto;
         @include sm {
             // 576px
@@ -183,7 +183,7 @@ main {
 
         #input-area {
             position: relative;
-            width: 100%;  // Ensure it takes up full width, but shrinks if needed
+            width: 100%; // Ensure it takes up full width, but shrinks if needed
 
             @include sm {
                 // 576px
@@ -229,7 +229,13 @@ main {
 
                 position: absolute;
                 bottom: 20px;
-                left: 43%;
+                left: 50%;
+                transform: translateX(-50%);
+                cursor: pointer;
+            }
+
+            #submit:hover {
+                background-color: $secondary;
             }
         }
 

@@ -27164,7 +27164,7 @@
 
        if (parentElement) {
            new EditorView({
-               doc: 'Hello \nEveryone',
+               doc: '//Welcome To CodeMirror Everyone \n\nlet MSG = "Hello World!"; \nconsole.log(MSG);',
                extensions: [basicSetup, javascript()],
                parent: parentElement,
            });

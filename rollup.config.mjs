@@ -6,9 +6,9 @@
 
 import { nodeResolve } from "@rollup/plugin-node-resolve"
 export default {
-    input: "./scripts/editor.mjs",
+    input: "./src/scripts/editor.mjs",
     output: {
-        file: "./scripts/editor.bundle.js",
+        file: "./src/scripts/editor.bundle.js",
         format: "iife"
     },
     plugins: [nodeResolve()]
