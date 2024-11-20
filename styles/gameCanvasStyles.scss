@@ -1,0 +1,25 @@
+@import "styles";
+
+#game_display2 {
+    // Styles for the game display container in the flexbox
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem;
+
+
+    #gameCanvas {
+        
+        width: 100%;
+        height: 100%;
+        
+        
+        background: #412f1c;
+        border: .75rem solid $secondary;
+        border-radius: 8px;
+
+        display: flex;
+        z-index: 1;
+    }
+    
+}
