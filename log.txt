@@ -1,0 +1,24 @@
+f211db1 - Jacob Brown, 2024-11-20 16:22:51 -0700 : Successfully implemented a basic version of Phaser with a Canvas and placeholder background image.
+c1efe50 - Jacob Brown, 2024-11-20 14:43:29 -0700 : Fixed Button CSS and changed Code Mirror Text.
+efec21a - Jacob Brown, 2024-11-20 14:05:28 -0700 : Injected Vite into the Project to enable minification for production builds.
+7355be3 - Jacob Brown, 2024-11-20 13:24:41 -0700 : Added a Code Mirror Editor to the Game Site. The CSS is a little screwy and I hope someone can fix it.
+c7ca725 - Jacob Brown, 2024-10-31 15:34:48 -0600 : Merge branch 'GridTesting'
+a49c16f - Jacob Brown, 2024-10-31 15:23:58 -0600 : Added Tile generation code.
+f568cf5 - DevinneLeigh, 2024-10-31 14:42:39 -0600 : Update index.js
+152ec10 - DevinneLeigh, 2024-10-31 14:42:00 -0600 : Update styles.css
+993f336 - DevinneLeigh, 2024-10-31 14:40:48 -0600 : Update styles.css.map
+d6b15f0 - DevinneLeigh, 2024-10-31 14:40:19 -0600 : Update styles.scss
+1ae524c - DevinneLeigh, 2024-10-31 14:39:30 -0600 : Update game.html
+6260170 - Jacob Brown, 2024-10-31 13:35:10 -0600 : Added Gabby's Blurb and some JSON files.
+cdf34e3 - DevinneLeigh, 2024-10-30 21:40:09 -0600 : added document selectors
+2054c22 - DevinneLeigh, 2024-10-30 21:38:34 -0600 : updated stylesheet href and script src to match file names
+15dc93a - DevinneLeigh, 2024-10-30 21:35:05 -0600 : added SCSS and CSS files
+19b71d2 - DevinneLeigh, 2024-10-30 21:33:00 -0600 : added images
+eb74d9c - DevinneLeigh, 2024-10-30 21:31:04 -0600 : Create game.html
+ba2f368 - Jacob Brown, 2024-10-24 14:10:52 -0600 : Added Matt's page code template from tuesday 10-22-24.
+8aa5cbb - SayedMirbacha, 2024-10-24 14:01:01 -0600 : Add files via upload
+455fc93 - JacobE-Brown, 2024-10-24 13:54:18 -0600 : Update index.html
+a6964d2 - Jacob Brown, 2024-10-24 13:51:49 -0600 : Added initial files
+b0a56c5 - Jacob Brown, 2024-10-24 13:50:22 -0600 : Added Styles
+c4067ff - Jacob Brown, 2024-10-24 13:47:30 -0600 : Initial WebSite Setup
+2f7fc57 - JacobE-Brown, 2024-10-24 13:33:58 -0600 : Create README.txt
